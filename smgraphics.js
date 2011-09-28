@@ -10,5 +10,8 @@ window.onload = function () {
   // Sets the stroke attribute of the circle to black
   circle.attr({gradient: "45-#000-#000", opacity: 0.1})
   
+  // raphael supports svg path syntax
+  // see http://www.w3.org/TR/SVG/paths.html
+  // M = Move, L = Line to, Z = close Path
   var path = paper.path("M10 90 L50 30 L 11 11 L 110 100 Z");
 };
