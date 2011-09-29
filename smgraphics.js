@@ -13,5 +13,28 @@ window.onload = function () {
   // raphael supports svg path syntax
   // see http://www.w3.org/TR/SVG/paths.html
   // M = Move, L = Line to, Z = close Path
-  var path = paper.path("M10 90 L50 30 L 11 11 L 110 100 Z");
+  var p = paper.path("M10 90 L50 30 L 11 11 L 110 100 Z");
+  p.attr({fill: '#FFFFFF'});
+  // animate radius to smaller in 2.2s with '<>' animation
+  circle.animate({r: 50}, 2200, '<>');
+  
+  setTimeout(function() {
+	  // animate path to new coordinates
+    p.animate({path: "M10 120 L50 30 L 20 11 L 11 11  L 20 60 L 90 90  Z"}, 1000, 'bounce');
+  }, 1000);
+
+  var dot = paper.circle(10, 90, 10);
+  dot.attr('fill', '#00F');
+  dot.animateAlong(p, 1000);
+
+  setTimeout(function() {
+	  // animate path to new coordinates
+//    p.rotate(-90, 90, 90);
+    p.animate({rotation: '-90, 90, 90'}, 1000, '<>');
+    dot.animate({rotation: '180, 90, 90'}, 1000, '<>');
+  }, 2000);
+
+
+  p.animate({fill: "#FA0"}, 2500);
+  
 };
