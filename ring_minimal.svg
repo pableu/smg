@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg">
+
+    <path
+       style="fill:#00b455;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 332.5,649.86215 c -138.07119,0 -250,44.77152 -250,100.00003 0,55.2285 111.92881,100 250,100 138.07119,0 250,-44.7715 250,-100 0,-55.22851 -111.92881,-100.00003 -250,-100.00003 z m 0,60.00001 c 55.22847,0 100,17.9086 100,40.00002 0,22.0914 -44.77153,40 -100,40 -55.22847,0 -100,-17.9086 -100,-40 0,-22.09142 44.77153,-40.00002 100,-40.00002 z"
+       id="bottom_ring" />
+
+    <path
+       style="color:#000000;fill:#d30000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 332.5,619.86214 c -138.07119,0 -250,44.77152 -250,100.00002 0,55.22852 111.92881,100.00002 250,100.00002 138.07119,0 250,-44.7715 250,-100.00002 0,-55.2285 -111.92881,-100.00002 -250,-100.00002 z m 0,60 c 55.22847,0 100,17.90862 100,40.00002 0,22.09142 -44.77153,40.00002 -100,40.00002 -55.22847,0 -100,-17.9086 -100,-40.00002 0,-22.0914 44.77153,-40.00002 100,-40.00002 z"
+       id="middle_ring"/>
+
+
+    <path
+       style="fill:#d30000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 332.5,589.86216 c -138.07119,0 -250,44.77152 -250,100 0,55.22852 111.92881,100.00002 250,100.00002 138.07119,0 250,-44.7715 250,-100.00002 0,-55.22848 -111.92881,-100 -250,-100 z m 0,60 c 55.22847,0 100,17.90861 100,40 0,22.09139 -44.77153,40 -100,40 -55.22847,0 -100,-17.90861 -100,-40 0,-22.09139 44.77153,-40 100,-40 z"
+       id="top_ring"/>
+       
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82.8,684.8049 0,69.97238"
+       id="left_line" />
+
+</svg>
