@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="17">
+  <path d="M1 3a4 1 0 0 0 20 0 4 1 0 0 0-20 0" fill="#fff" stroke="#000" stroke-width="0.5"/>
+  <path d="M1 13v-10a4 1 0 0 0 20 0V13a4 1 0 0 1-20 0" fill="#fff" stroke="#000" stroke-width="0.5"/>
+</svg>
